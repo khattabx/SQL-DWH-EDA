@@ -7,4 +7,11 @@ WITH (
     TABLOCK
 );
 
-SELECT * FROM bronze.crm_cust_info
+SELECT name FROM sys.triggers WHERE parent_id = OBJECT_ID('bronze.crm_cust_info');
+SELECT COUNT(*) FROM bronze.crm_cust_info
+
+SELECT DB_NAME() AS current_db;
+SELECT COUNT(*) FROM bronze.crm_cust_info;
+SELECT @@SERVERNAME, @@SPID;
+
+SELECT @@TRANCOUNT;

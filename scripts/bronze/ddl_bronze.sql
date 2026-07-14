@@ -8,6 +8,7 @@ CREATE TABLE bronze.crm_cust_info (
     cst_firstname NVARCHAR(50),
     cst_lastname NVARCHAR(50),
     cst_material_status NVARCHAR(50),
+    cst_gndr NVARCHAR(50),
     cst_create_date DATE
 );
 
@@ -68,4 +69,3 @@ CREATE TABLE bronze.erp_px_cat_g1v2 (
     subcat NVARCHAR(50),
     maintenance NVARCHAR(50)
 );
-
