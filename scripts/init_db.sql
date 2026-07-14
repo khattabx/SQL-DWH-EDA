@@ -1,11 +1,12 @@
+-- Active: 1783948575995@@127.0.0.1@1444@DataWarehouse
 USE master;
+GO
 
--- Create DB
+DROP DATABASE IF EXISTS DataWarehouse;
+GO
 
-IF DB_ID('DataWarehouse') IS NULL BEGIN CREATE
-DATABASE DataWarehouse;
-
-END
+CREATE DATABASE DataWarehouse;
+GO
 
 USE DataWarehouse;
 

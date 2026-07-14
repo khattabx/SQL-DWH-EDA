@@ -1,0 +1,16 @@
+services:
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: LocalMssql
+    restart: always
+    ports:
+      - "1444:1433"
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=StrongPassword123
+    volumes:
+      - sql_data:/var/opt/mssql
+      - ./datasets:/var/opt/mssql/datasets
+
+volumes:
+  sql_data:
