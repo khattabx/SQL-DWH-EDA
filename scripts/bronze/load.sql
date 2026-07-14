@@ -1,17 +1,11 @@
+-- Active: 1783948575995@@127.0.0.1@1444@DataWarehouse
 BULK INSERT bronze.crm_cust_info
 FROM '/var/opt/mssql/datasets/source_crm/cust_info.csv'
 WITH (
     FIRSTROW = 2,
     FIELDTERMINATOR = ',',
-    ROWTERMINATOR = '0x0d0a',
+    ROWTERMINATOR = '0x0a',
     TABLOCK
 );
 
-SELECT name FROM sys.triggers WHERE parent_id = OBJECT_ID('bronze.crm_cust_info');
-SELECT COUNT(*) FROM bronze.crm_cust_info
-
-SELECT DB_NAME() AS current_db;
-SELECT COUNT(*) FROM bronze.crm_cust_info;
-SELECT @@SERVERNAME, @@SPID;
-
-SELECT @@TRANCOUNT;
+SELECT * FROM bronze.crm_cust_info

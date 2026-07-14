@@ -1,4 +1,4 @@
--- Active: 1783948575995@@127.0.0.1@1444@DataWarehouse
+-- Active: 1783948575995@@127.0.0.1@1444@master
 USE master;
 GO
 
