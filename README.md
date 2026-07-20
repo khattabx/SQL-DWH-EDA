@@ -13,7 +13,8 @@ The project follows a **Bronze → Silver → Gold** layered architecture:
 - **Silver Layer** — Cleaned, standardized, and conformed data. This layer handles deduplication, data type fixes, null handling, and business rule validation to prepare data for integration.
 - **Gold Layer** — Business-ready data modeled into a **star schema** (fact and dimension tables), optimized for reporting, analytics, and BI consumption.
 
->[!NOTE] Additional diagrams (ETL techniques, data flow, and data models) are available as editable [Excalidraw](https://excalidraw.com/) files in the `docs/` folder.
+>[!NOTE] 
+> Additional diagrams (ETL techniques, data flow, and data models) are available as editable [Excalidraw](https://excalidraw.com/) files in the `docs/` folder.
 
 ---
 
@@ -27,9 +28,11 @@ This project simulates a real-world data warehousing workflow, covering:
 4. **Data Quality** — Applying validation checks and tests to ensure consistency and reliability across layers.
 5. **Documentation** — Maintaining clear naming conventions, data catalogs, and architecture diagrams for maintainability.
 
->[!NOTE] ** Skills demonstrated:** SQL Development, Data Architecture, Data Engineering, ETL Pipeline Development, Data Modeling, Data Analytics
+>[!NOTE] 
+> ** Skills demonstrated:** SQL Development, Data Architecture, Data Engineering, ETL Pipeline Development, Data Modeling, Data Analytics
 
->[!NOTE] ** Tech stack:** SQL Server, T-SQL, Excalidraw (for diagrams)
+>[!NOTE] 
+> ** Tech stack:** SQL Server, T-SQL, Excalidraw (for diagrams)
 
 ---
 
