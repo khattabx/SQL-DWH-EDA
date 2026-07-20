@@ -1,0 +1,59 @@
+## OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+## Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+## Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+
+## Environment and secrets
+.env
+.env.*
+!.env.example
+*.secret
+*.key
+*.pem
+
+## Python / local tooling
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+## Node / package manager artifacts
+node_modules/
+dist/
+build/
+coverage/
+
+## SQL Server / database artifacts
+*.mdf
+*.ndf
+*.ldf
+*.bak
+*.sqlbackup
+*.sqlite
+*.sqlite3
+
+## Project-generated outputs
+output/
+exports/
+reports/
+tmp/
