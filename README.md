@@ -14,7 +14,7 @@ The project follows a **Bronze → Silver → Gold** layered architecture:
 - **Gold Layer** — Business-ready data modeled into a **star schema** (fact and dimension tables), optimized for reporting, analytics, and BI consumption.
 
 > [!IMPORTANT] 
-> For a full breakdown of all architecture diagrams, data flow visuals, the data model, data catalog, and naming conventions, see docs/README.md.
+> For a full breakdown of all architecture diagrams, data flow visuals, the data model, data catalog, and naming conventions, see [docs/overview](docs/README.md).
 
 ---
 
