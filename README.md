@@ -6,7 +6,7 @@ A modern data warehouse built with **SQL Server**, following the **Medallion Arc
 
 ## Data Architecture
 
-![Data Architecture](DWH-Docs/data_arc.png)
+![Data Architecture](docs/DWH/data_arc.png)
 
 The project follows a **Bronze → Silver → Gold** layered architecture:
 - **Bronze Layer** — Raw, unprocessed data ingested as-is from source systems (ERP & CRM), stored in SQL Server tables with no transformations. This preserves an auditable copy of the original data.
@@ -14,7 +14,7 @@ The project follows a **Bronze → Silver → Gold** layered architecture:
 - **Gold Layer** — Business-ready data modeled into a **star schema** (fact and dimension tables), optimized for reporting, analytics, and BI consumption.
 
 > [!IMPORTANT] 
-> For a full breakdown of all architecture diagrams, data flow visuals, the data model, data catalog, and naming conventions, see [docs/overview](DWH-Docs/).
+> For a full breakdown of all architecture diagrams, data flow visuals, the data model, data catalog, and naming conventions, see [docs/overview](docs/DWH/DWH/).
 
 ---
 
